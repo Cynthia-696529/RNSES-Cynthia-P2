@@ -1,8 +1,8 @@
 # RNSES-Cynthia-P2
 ## Tabla de contenidos 
 * [Información](#info)
-* [Tarea 1. Crear dos tareas](#tarea 1)
-* [Tarea 2. Conectar un sensor inercial por I2C (o SPI)](#tarea 2)
+* [Tarea 1. Crear dos tareas](#tarea1)
+* [Tarea 2. Conectar un sensor inercial por I2C (o SPI)](#tarea2)
 
 ## Información
 Comprender el uso y los conceptos asociados a un sistema operativo en tiempo real (RTOS)
