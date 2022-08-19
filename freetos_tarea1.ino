@@ -2,7 +2,7 @@
 const int pinLED = 12; // Pin de conexión LED
 void setup() {
 
-  Serial.begin(112500);
+  Serial.begin(112500); //ojo! con la velocidad
   delay(1000);
   
   pinMode(12, OUTPUT); 
@@ -29,9 +29,9 @@ void Tarea1( void * parameter )
 void Tarea2( void * parameter)
 {
   while(1){
-    digitalWrite(pinLED, HIGH); // Enciende el LED.
+    digitalWrite(pinLED, HIGH); //  LED ON.
     vTaskDelay(200);                 // Espero 200 ms
-    digitalWrite(pinLED, LOW);  // Apaga el LED.
+    digitalWrite(pinLED, LOW);  // LED OFF.
     vTaskDelay(200);  
   }
     //vTaskDelete( NULL );
